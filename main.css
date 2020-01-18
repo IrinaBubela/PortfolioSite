@@ -1,0 +1,110 @@
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F6F6F6;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.navbar-brand{
+  background-color: #f6f6f6;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 20px;
+
+}
+.greeting {
+    background-image: url("img/code.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.navbar{
+  width: 93.5vw;
+  margin-left: 3.5%;
+}
+
+.navbar-nav li:hover{
+    color: black;
+}
+h1{
+  font-size: 1.5em;
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 700;
+}
+
+button, .hello_text{
+  margin-left: 5%;
+  padding-top: 6em;
+  margin-bottom: 1em;
+}
+
+.content{
+ margin-top: 9em;
+}
+.about{
+  background-color: #F1F1F4;
+  width: 90vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text_about{
+ width: 50%;
+}
+
+
+.photo_about img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 8em;
+}
+
+.text_projects{
+  text-align: center;
+  margin-top: 5em;
+}
+
+.projects_examples{
+  margin-top: 2em;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+  text-align: center;
+}
+.projects_examples img{
+  width: 350px;
+  height: 350px;
+}
+
+.projects_examples img:hover{
+  transform: scale(1.1);
+  opacity: 80%;
+}
+.text_contact{
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+.contact{
+  margin-left:3.5em;
+  width: 90vw;
+  cursor: pointer;
+  margin-bottom: 5em;
+}
+
