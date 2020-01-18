@@ -41,8 +41,8 @@
             <button type="button" class="btn btn-outline-secondary">Contact Me</button>
         </div>
         <div class="content container" id="about">
-            <div class="about row">
-                <div class="text_about col-sm-6">
+            <div class="about row col-md-12 col-lg-12 col-12 ">
+                <div class="text_about col-lg-6 col-12">
                     <h1>ABOUT</h1>
                     <p>I'm a web developer based in Wrocław. I specialise in designing and building sites. My adventure
                         with
@@ -52,17 +52,18 @@
                         Below you will see projects I work with.
                     </p>
                 </div>
-                <div class=" photo_about col-sm-6">
-                    <img src="img/photo.jpg" alt="photo">
+                <div class=" photo_about col-lg-6 col-sm-12">
+                    <img src=" img/photo.jpg" alt="photo">
                 </div>
             </div>
-            <div class="projects" id="projects">
-                <h1 class="text_projects">MY WORKS</h1>
-                <div class="projects_examples row">
-                    <div class="first-project col-sm-4"><img src="img/1.jpg" alt=""></div>
-                    <div class="second-project col-sm-4"><img src="img/2.jpg" alt=""></div>
-                    <div class="third_project col-sm-4"><img src="img/3.jpg" alt=""></div>
-                </div>
+
+        </div>
+        <div class="projects" id="projects">
+            <h1 class="text_projects">MY WORKS</h1>
+            <div class="projects_examples row">
+                <div class="first-project  col-lg-4 col-md-6 col-sm-12"><img src="img/1.jpg" alt=""></div>
+                <div class="second-project  col-lg-4 col-md-6 col-sm-12"><img src="img/2.jpg" alt=""></div>
+                <div class="third_project  col-lg-4 col-md-6 col-sm-12"><img src="img/3.jpg" alt=""></div>
             </div>
         </div>
         <div class="contact" id="contact">
@@ -70,7 +71,7 @@
             <div class="row">
 
                 <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
+                <div class=" contact_form col-md-9 mb-md-0 mb-5">
                     <form id="contact-form" name="contact-form" method="POST">
 
                         <!--Grid row-->
@@ -126,8 +127,8 @@
 
                     </form>
 
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-outline-secondary"
+                    <div class=" col-md-6 button_send">
+                        <a class="btn btn-outline-secondary btn_send"
                             onclick="document.getElementById('contact-form').submit();">Send</a>
                     </div>
                     <div class="status"></div>
@@ -150,7 +151,7 @@
 
     </div>
 
-    <canvas class="background"></canvas>
+
     <script src="path/to/particles.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

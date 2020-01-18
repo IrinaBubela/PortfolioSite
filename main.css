@@ -49,6 +49,10 @@ button, .hello_text{
 
 .content{
  margin-top: 9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
 .about{
   background-color: #F1F1F4;
@@ -60,16 +64,11 @@ button, .hello_text{
 }
 
 
-.text_about{
- width: 50%;
-}
-
-
 .photo_about img{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-left: 8em;
+  margin-left: 14em;
 }
 
 .text_projects{
@@ -79,11 +78,11 @@ button, .hello_text{
 
 .projects_examples{
   margin-top: 2em;
-  width: 90vw;
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: space-around;
+  justify-content: center;
+  align-items:  center;
   text-align: center;
 }
 .projects_examples img{
@@ -107,4 +106,69 @@ button, .hello_text{
   cursor: pointer;
   margin-bottom: 5em;
 }
+.button_send{
+  width: 300px;
+}
 
+
+@media (max-width: 1000px){
+  .about{
+   height: 70vh;
+  }
+}
+
+@media (max-width: 770px){
+  .photo_about img{
+    margin-left: 7em;
+  }
+
+  .contact_form{
+    width: 100vw;
+    margin: -3em;
+  }
+  .btn_send{
+    width: 100vw;
+    text-align: center;
+  }
+  .button_send{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  center;
+    text-align: center;
+  }
+
+  .text_contact{
+    text-align: center;
+    margin-left: -3em;
+  }
+  .text-center{
+    margin-left: -2em;
+  }
+}
+
+@media (max-width: 460px){
+  .photo_about img{
+    margin-left: 3em;
+  }
+}
+
+@media (max-width: 370px){
+  .about{
+    height: 100vh;
+   }
+
+   .photo_about img{
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 290px){
+  .photo_about img{
+    margin-left: -.5em;
+  }
+
+  .text-center{
+    margin-left: -4em;
+  }
+}
