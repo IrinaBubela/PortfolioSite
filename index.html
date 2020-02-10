@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +7,8 @@
     <title>Document</title>
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
@@ -16,146 +17,200 @@
 </head>
 
 <body>
+    <div class="main-content">
+        <nav class="navbar navbar-expand-md navbar-dark ">
 
-    <div class="greeting ">
-        <div class="main-content">
-            <nav class="navbar navbar-expand navbar-light">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapse_target">
                 <a href="#" class="navbar-brand">IB</a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link active">Home</a c>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#projects" class="nav-link">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <h1 class="hello_text">Hello, I'm Irina, <br />Front-end Developer based in Wrocław </h1>
-            <!-- <button type="button" class="btn btn-outline-secondary">Contact Me</button> -->
-            <a href="#projects"><button type="button" class="btn btn-outline-secondary">My projects</button></a>
-        </div>
-        <div class="content container" id="about">
-            <div class="about row col-md-12 col-lg-12 col-12 ">
-                <div class="text_about col-lg-6 col-12">
-                    <h1>ABOUT</h1>
-                    <p>I'm a web developer based in Wrocław. I specialise in designing and building sites. My adventure
-                        with
-                        programming started in 2018 and it became my biggest goal in life since then. My main focus lies
-                        on
-                        the JavaScript, React development and Front-end.
-                        Below you will see projects I work with.
-                    </p>
-                </div>
-                <div class=" photo_about col-lg-6 col-sm-12">
-                    <img src=" img/photo.jpg" alt="photo">
-                </div>
+
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a c>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a c>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li> -->
+                </ul>
+
             </div>
+        </nav>
 
+        <div class="main_text">
+            <h1 class=" hello_text">Front-end Developer</h1>
+            <p>I'm interested in creating a user-friendly environment<br /> by
+                writing code and moving forward in my career.</p>
+
+            <a id="scroll" href="#projects">
+                <button id="scroll-button">VIEW PORTFOLIO</button>
+                <img id="scroll-icon" src="icons/scrollIcon.svg" alt="arrow">
+            </a>
         </div>
-        <div class="projects" id="projects">
-            <h1 class="text_projects">MY WORKS</h1>
-            <div class="projects_examples row">
-                <div class="first-project  col-lg-4 col-md-6 col-sm-12"><a
-                        href="https://irinabubela.github.io/react-gh-pages/"><img src="img/1.png" alt=""></a>
-                </div>
-                <div class="second-project  col-lg-4 col-md-6 col-sm-12"><a
-                        href="https://irinabubela.github.io/nasa_api/"><img src="img/2.png" alt=""></a></div>
-                <div class="third_project  col-lg-4 col-md-6 col-sm-12"><a target="_blank"
-                        href="https://irinabubela.github.io/Timer/"><img src="img/3.png" alt=""></a></div>
-            </div>
-        </div>
-        <div class="contact" id="contact">
-            <h1 class="text_contact">CONTACT WITH ME</h1>
-            <div class="row">
-
-                <!--Grid column-->
-                <div class=" contact_form col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" method="POST">
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Your name</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-12">
-
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                        class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                    </form>
-
-                    <div class=" col-md-6 button_send">
-                        <a class="btn btn-outline-secondary btn_send"
-                            onclick="document.getElementById('contact-form').submit();">Send</a>
-                    </div>
-                    <div class="status"></div>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-3 text-center">
-                    <ul class="list-unstyled mb-0">
-                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p>Rishabubela@gmail.com</p>
-                        </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-            </div>
-
-        </div>
-
-
     </div>
+
+    <div class="content container" id="about">
+        <div class="about row col-md-12 col-lg-12 col-12 ">
+            <div class="text-about col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                <p>I'm a web developer based in Wrocław. I specialise in designing and building sites. My adventure
+                    with
+                    programming started in 2018 and it became my biggest goal in life since then. My main focus lies
+                    on
+                    the JavaScript, React development and Front-end.
+                    Below you will see projects I work with.
+                </p>
+            </div>
+            <div class=" photo-about col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                <img src=" img/photo.jpg" alt="photo">
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h1 id="text-myworks">MY WORKS</h1>
+        <div class="projects_list">
+            <div class="projects-examples ">
+                <div class="first_project common_project col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
+                    <img class="project_img" src="img/1.png" alt="weather app">
+                    <p class="project_name">Weather API Forecast</p>
+                    <a id="a_first_demo" href="https://irinabubela.github.io/react-gh-pages/">
+                        Explore demo <span><img class="icon arrow" src="icons/arrow.svg" alt="demo"></span>
+                    </a>
+                    <a id="a_first_github" href="https://github.com/IrinaBubela/PortfolioSite/">
+                        View code <span><img class="icon " src="icons/github.svg" alt="github"></span>
+                    </a>
+                </div>
+
+                <div class="second_project common_project  col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <img class="project_img" src="img/2.png" alt="nasa_api">
+                    <p class="project_name">NASA API Search</p>
+
+                    <a id="a_second_demo" href="https://irinabubela.github.io/nasa_api/">
+                        Explore demo <span><img class="icon arrow" src="icons/arrow.svg" alt="demo"></span>
+                    </a>
+                    <a id="a_second_github" href=" https://github.com/IrinaBubela/nasa_api/">
+                        View code<span><img class="icon " src="icons/github.svg" alt="github"></span>
+                    </a>
+                </div>
+
+                <div class="third_project common_project  col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <img class="project_img" src="img/3.png" alt="timer">
+                    <p class="project_name">Countdown Timer</p>
+
+                    <a id="a_third_demo" target="_blank" href="https://irinabubela.github.io/Timer/">
+                        Explore demo<span><img class="icon arrow" src="icons/arrow.svg" alt="demo"></span>
+                    </a>
+                    <a id="a_third_github" href="https://github.com/IrinaBubela/Timer">
+                        View code <span><img class="icon " src="icons/github.svg" alt="github"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 id="text-myskills">MY SKILLS</h1>
+    <div class="skills" id="skills">
+        <div class="front-end div-skill">
+            <h1>FRONT-END</h1>
+            <div class="row">
+                <div class="col-4">
+                    <img src="icons/skills/html.svg" alt="html">
+                    <p>HTML</p>
+                </div>
+                <div class="col-4">
+                    <img src="icons/skills/css.svg" alt="css">
+                    <p>CSS</p>
+                </div>
+                <div class="col-4">
+                    <img src="icons/skills/sass.svg" alt="sass">
+                    <p>Sass</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="icons/skills/bootstrap.svg" alt="bootstrap">
+                    <p>Bootstrap</p>
+                </div>
+                <div class="col-4">
+                    <img src="icons/skills/js.svg" alt="js">
+                    <p>JS</p>
+                </div>
+                <div class="col-4">
+                    <img src="icons/skills/react.svg" alt="react">
+                    <p>React</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="design div-skill">
+            <h1>DESIGN</h1>
+            <div class="row">
+                <div class="col-4 ">
+                    <img src="icons/skills/photoshop.svg" alt="ps">
+                    <p>Photoshop</p>
+                </div>
+                <div class="col-4">
+                    <img src="icons/skills/Figma-512.png" alt="figma">
+                    <p>Figma</p>
+                </div>
+                <div class="col-4">
+                    <img src="icons/skills/illustrator.svg" alt="illustrator">
+                    <p>Adobe Illustrator</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools div-skill">
+            <h1>TOOLS AND OTHER</h1>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-6">
+                    <img src="icons/skills/git.svg" alt="git">
+                    <p>Git</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-6">
+                    <img id="npm" src="icons/skills/npm.svg" alt="npm">
+                    <p>npm</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-6">
+                    <img src="icons/skills/slack.svg" alt="slack">
+                    <p>Slack</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-6">
+                    <img src="icons/skills/team.svg" alt="">
+                    <p>Scrum</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="learning div-skill">
+            <h1>I'M LEARNING NOW</h1>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-6">
+                    <img src="icons/skills/nodejs.svg" alt="node.js">
+                    <p>Node.js</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-6">
+                    <img src="icons/skills/angular_solidBlack.svg" alt="">
+                    <p>Angular</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
     <script src="path/to/particles.min.js"></script>
