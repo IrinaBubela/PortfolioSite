@@ -386,12 +386,12 @@ a {
   }
 }
 
-/* @media (max-width: 229px){ */
-  /* .content{height: 90vh;
-  } */
-/* } */
+@media (max-width: 229px){ */
+  .content{height: 90vh;
+  }
+}
 
-/* @media (max-height: 1200px){
+ @media (max-height: 1200px){
   .content{
     height: 40vh;
   }
@@ -401,4 +401,4 @@ a {
   .content{
     height: 100vh;
   }
-} */
+}
