@@ -114,7 +114,6 @@ cursor: pointer;
   align-items: center; 
   height: 60vh;
   width: 100vw;
-  margin: 0;
 }
 
 
@@ -183,6 +182,7 @@ cursor: pointer;
 #text-myworks,
  #text-myskills
 {
+  font-size: 30px;
   text-align: center;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -321,12 +321,14 @@ a {
 }
 
 @media (max-width: 756px){
+  .content{
+    width: 90vw;
+    height: 75vh;
+  }
+
   .projects-examples{
     width: 90vw;
     justify-content:center;
-  }
-  .content{
-    width: 90vw;
   }
 }
 
@@ -339,12 +341,13 @@ a {
 @media (max-width: 468px){
   .content{
     width: 100vw;
-    height: 120vh;
+    height: 85vh;
   }
+  
   .hello-div h1{
     font-size: 35px;
-    /* margin-top: 2.5em; */
   }
+  
   .hello-div p {
     font-size: 22px;
   }
@@ -352,7 +355,7 @@ a {
 
 @media (max-width: 375px){
   .content{
-    height: 140vh;
+    height: 95vh;
   }
   .photo_about img{
     display: none;
@@ -372,12 +375,12 @@ a {
 }
 
 @media (max-width: 300px){
-  .content{height: 160vh;
+  .content{height: 110vh;
   }
 }
 
 @media (max-width: 220px){
-  .content{height: 190vh;
+  .content{height: 140vh;
   }
 }
 
