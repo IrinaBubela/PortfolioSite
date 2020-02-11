@@ -348,7 +348,7 @@ a {
   }
 
   .div-skill .row{
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -378,6 +378,10 @@ a {
 
   .project_name{
     margin: 0;
+  }
+
+  .div-skill .row{
+    width: 100%;
   }
 }
 
