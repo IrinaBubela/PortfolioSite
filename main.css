@@ -346,7 +346,7 @@ a {
     width: 100%;
   }
 
-  #skills p{
+  .div-skill .row p{
     font-size: 14px;
   }
 }
