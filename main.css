@@ -317,9 +317,14 @@ a {
     font-size: 18px;
   }
 
-  #text-myworks{
-    margin-bottom: 0em;
-  }
+  #text-myworks,
+  #text-myskills
+ {
+   font-size: 22px;
+   margin-bottom: 1.5em;
+   margin-top: 1.5em;
+ }
+ 
   
 }
 
@@ -349,6 +354,9 @@ a {
   .div-skill .row p{
     font-size: 14px;
   }
+  
+#text-myworks,
+
 }
 
  @media (max-width: 613px){
