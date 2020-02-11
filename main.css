@@ -310,10 +310,6 @@ a {
   .project_name{
     font-size: 18px;
   }
-  .project_img {
-    height: 65%;
-  }
-  
   #text-myworks{
     margin-bottom: 0em;
   }
@@ -326,6 +322,10 @@ a {
     height: 75vh;
   }
 
+  .project_img {
+    height: 65%;
+  }
+
   .projects-examples{
     width: 90vw;
     justify-content:center;
@@ -335,9 +335,6 @@ a {
  @media (max-width: 613px){
   .skills img{
     width: 60px;
-  }
-  .project_img {
-    height: 65%;
   }
 }
 
@@ -393,14 +390,3 @@ a {
 }
 
 
-/* @media (max-height: 1200px){
-  .content{
-    height: 40vh;
-  }
-} */
-/* 
-@media (max-height: 820px){
-  .content{
-    height: 110vh;
-  } */
-}
