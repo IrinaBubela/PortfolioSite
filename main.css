@@ -360,6 +360,10 @@ a {
   .project_img {
     height: 70%;
   }
+
+  .project_name{
+    margin: 0;
+  }
 }
 
 @media (max-width: 375px){
