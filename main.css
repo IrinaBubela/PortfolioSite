@@ -54,9 +54,7 @@ html {
 }
 /*navbar*/
 
-h1{
-  font-size: 25px;
-}
+
 
 .main-text h1{
   font-size: 40px;
@@ -288,7 +286,7 @@ a {
 .common_project:hover{
   background-color: #FF8300;
 }
-.project-img {
+.project_img {
   margin-top: 1em;
   margin-bottom: 1em;
   width: 100%;
@@ -323,9 +321,9 @@ a {
   .project_name{
     font-size: 18px;
   }
-  .project-img {
+  .project_img {
     width: 100%;
-    height: 70%;
+    height: 65%;
   }
   #text-myworks{
     margin-bottom: 0em;
@@ -352,11 +350,11 @@ a {
 @media (max-width: 468px){
   .content{
     width: 100vw;
-    height: 55vh;
+    height: 75vh;
   }
   .hello-div h1{
     font-size: 28px;
-    margin-top: 4em;
+    /* margin-top: 2.5em; */
   }
   .hello-div p {
     font-size: 18px;
@@ -378,20 +376,23 @@ a {
   .project_name{
     font-size: 18px;
   }
+  .project_img {
+    width: 100%;
+    height: 45%;
+  }
 }
 
 @media (max-width: 300px){
-  .content{
-    height: 110vh;
+  .content{height: 100vh;
   }
 }
 
-@media (max-width: 229px){ */
-  .content{height: 90vh;
-  }
+@media (max-width: 229px){
+  /* .content{height: 90vh;
+  } */
 }
 
- @media (max-height: 1200px){
+@media (max-height: 1200px){
   .content{
     height: 40vh;
   }
@@ -399,6 +400,6 @@ a {
 
 @media (max-height: 820px){
   .content{
-    height: 100vh;
+    height: 110vh;
   }
 }
