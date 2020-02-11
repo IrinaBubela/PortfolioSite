@@ -62,17 +62,18 @@ html {
   margin-top: 5em;
 }
 
-h1{
+/* h1{
    font-size: 1.5em;
    font-family: 'Josefin Sans', sans-serif;
    font-weight: 700;
-}
+} */
 
 .main-text{
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
  .hello-div, 
 .scroll-div{
   justify-content: center;
@@ -314,7 +315,7 @@ a {
   }
   .common_project{
     height: 65vh;
-    /* margin-top: 2.3em; */
+    margin-top: 2.3em;
     font-size: 16px;
   }
   .project_name{
@@ -338,7 +339,6 @@ a {
   .content{
     width: 90vw;
   }
- 
 }
 
  @media (max-width: 613px){
@@ -350,7 +350,14 @@ a {
 @media (max-width: 468px){
   .content{
     width: 100vw;
-    height: 75vh;
+    height: 55vh;
+  }
+  .hello-div h1{
+    font-size: 28px;
+    /* margin-top: 2.5em; */
+  }
+  .hello-div p {
+    font-size: 18px;
   }
 }
 
@@ -376,13 +383,13 @@ a {
 }
 
 @media (max-width: 300px){
-  .content{height: 70vh;
+  .content{height: 100vh;
   }
 }
 
 @media (max-width: 229px){
-  .content{height: 90vh;
-  }
+  /* .content{height: 90vh;
+  } */
 }
 
 @media (max-height: 1200px){
