@@ -288,11 +288,6 @@ a {
  font-size: 20px;
  }
 
- .design p{
-   text-align: center;
-   font-size: 20px;
- }
-
  .design img{
    padding: 0;
    margin: 0;
@@ -351,8 +346,8 @@ a {
     width: 100%;
   }
 
-  .div-skill p{
-    font-size: 13px;
+  #skills p{
+    font-size: 14px;
   }
 }
 
