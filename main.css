@@ -252,8 +252,8 @@ a {
   justify-content: center;
  }
  
- .skills img{
-   width: 75px;
+ .div-skill img{
+   width: 65px;
  }
  
  .skills p{
@@ -269,6 +269,7 @@ a {
   flex-direction: column;
   justify-content: center;
    align-items:  center; 
+   text-align: center;
    box-shadow: 0 0 36px rgba(0,0,0,0.1);
    border-radius: 15px;
    margin-bottom: 1em;
@@ -282,9 +283,28 @@ a {
  color: #FF8300;
  font-size: 20px;
  }
+
+ .front-end .row, 
+ .design .row
+ {
+width: 60%;
+ }
  
- .design{
-   width: 80vw;
+.tools .row{
+  width: 60%;
+}
+.learning .row{
+  width: 30%;
+}
+
+ .design p{
+   text-align: center;
+   font-size: 16px;
+ }
+
+ .design img{
+   padding: 0;
+   margin: 0;
  }
  /* skills*/
 
