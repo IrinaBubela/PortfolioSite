@@ -4,7 +4,6 @@ html, body {
     box-sizing: border-box;
     background-color: #FDFDFD;
     color:  #425066;
-    overflow-x: hidden;
     width: 100%;
 }
 html {
@@ -55,26 +54,20 @@ html {
 /*navbar*/
 
 
-
-.main-text h1{
-  font-size: 40px;
-  font-weight: 700;
-  margin-top: 5em;
-}
-
-/* h1{
-   font-size: 1.5em;
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 700;
-} */
-
 .main-text{
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
- .hello-div, 
+.main-text h1{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 5em;
+}
+
+.hello-div, 
 .scroll-div{
   justify-content: center;
   align-items:center;
@@ -146,53 +139,6 @@ cursor: pointer;
   text-align: center;
 }
 /*about*/
-
-
-/* skills*/
-.skills{
- 
- width: 100%;
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
-}
-
-.skills img{
-  width: 75px;
-}
-
-.skills p{
-  text-align: center;
-  font-size: 20px;
-  margin-top: .8em;
-  color: #999;
-}
-
-.div-skill{
-  width: 80%;
-  display: flex;
- flex-direction: column;
- justify-content: center;
-  align-items:  center; 
-  box-shadow: 0 0 36px rgba(0,0,0,0.1);
-  border-radius: 15px;
-  margin-bottom: 1em;
-  background-color: #fff;
-}
-
-.skills h1{
-margin-top: 2em;
-margin-bottom: 2em;
-text-align: center;
-color: #FF8300;
-font-size: 20px;
-}
-
-.design{
-  width: 80vw;
-}
-/* skills*/
-
 
 
 
@@ -296,7 +242,49 @@ a {
 
 
 
-
+/* skills*/
+.skills{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ 
+ .skills img{
+   width: 75px;
+ }
+ 
+ .skills p{
+   text-align: center;
+   font-size: 20px;
+   margin-top: .8em;
+   color: #999;
+ }
+ 
+ .div-skill{
+   width: 80%;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items:  center; 
+   box-shadow: 0 0 36px rgba(0,0,0,0.1);
+   border-radius: 15px;
+   margin-bottom: 1em;
+   background-color: #fff;
+ }
+ 
+ .skills h1{
+ margin-top: 2em;
+ margin-bottom: 2em;
+ text-align: center;
+ color: #FF8300;
+ font-size: 20px;
+ }
+ 
+ .design{
+   width: 80vw;
+ }
+ /* skills*/
 
 
 @media (max-width: 1140px){
@@ -392,14 +380,14 @@ a {
   } */
 }
 
-@media (max-height: 1200px){
+/* @media (max-height: 1200px){
   .content{
     height: 40vh;
   }
-}
-
+} */
+/* 
 @media (max-height: 820px){
   .content{
     height: 110vh;
-  }
+  } */
 }
