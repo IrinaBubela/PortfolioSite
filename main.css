@@ -12,12 +12,8 @@ html {
 }
 
 .main-content{
-  background-size: contain;
   height: 85vh;
   width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #425066;
   color: #F1F1F4;
   font-weight: 100;
@@ -60,7 +56,7 @@ html {
 
 
 
-.main_text h1{
+.main-text h1{
   font-size: 40px;
   font-weight: 700;
   margin-top: 5em;
@@ -72,24 +68,28 @@ h1{
    font-weight: 700;
 }
 
-.main_text{
-  width: 100%;
-  height: 75%;
+.main-text{
+  height: 100vh;
   display: flex;
   flex-direction: column;
+}
+ .hello-div, 
+.scroll-div{
   justify-content: center;
   align-items:center;
+  text-align: center;
 }
 
-.main_text p{
+.main-text p{
   font-size: 22px;
 }
 
 
 /*scrolling button*/
 #scroll{
-  margin-top: 6em;
-  display: block;
+  /* position: fixed; */
+  /* margin-top: 10em; */
+  /* display: block; */
 }
 
 #scroll-button{
@@ -118,8 +118,8 @@ cursor: pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  height: 40vh;
-  width: 70vw;
+  height: 60vh;
+  width: 100vw;
 }
 
 
@@ -130,8 +130,8 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 8em;
-  margin-bottom: 3em;
+  /* margin-top: 8em;
+  margin-bottom: 3em; */
 }
 
 .about p{
@@ -232,18 +232,13 @@ font-size: 20px;
 }
 /*moving icons*/
 
-#text-myworks{
+#text-myworks,
+ #text-myskills
+{
   text-align: center;
-  margin-top: 5em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
-
-#text-myskills{
-  text-align: center;
-  margin-top: 4em;
-  margin-bottom: 2em;
-}
-
 
 .projects_list{
   width: 100%;
@@ -319,7 +314,7 @@ a {
   }
   .common_project{
     height: 65vh;
-    margin-top: 2.3em;
+    /* margin-top: 2.3em; */
     font-size: 16px;
   }
   .project_name{
@@ -337,16 +332,16 @@ a {
 
 @media (max-width: 756px){
   .projects-examples{
-    width: 70vw;
+    width: 90vw;
     justify-content:center;
+  }
+  .content{
+    width: 90vw;
   }
  
 }
 
  @media (max-width: 613px){
-  .content{
-    width: 90vw;
-  }
   .skills img{
     width: 60px;
   }
@@ -367,7 +362,7 @@ a {
     display: none;
   }
   .common_project{
-    /* height: 55vh; */
+    height: 55vh;
     margin-top: 3em;
     font-size: 16px;
   }
@@ -389,3 +384,15 @@ a {
   .content{height: 90vh;
   }
 }
+
+/* @media (max-height: 1200px){
+  .content{
+    height: 40vh;
+  }
+}
+
+@media (max-height: 820px){
+  .content{
+    height: 100vh;
+  }
+} */
