@@ -355,6 +355,10 @@ width: 60%;
   .project_name{
     margin: 0;
   }
+
+  .div-skill .row{
+    width: 70%;
+  }
 }
 
  @media (max-width: 613px){
