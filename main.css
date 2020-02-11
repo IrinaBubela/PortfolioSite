@@ -233,6 +233,7 @@ a {
 .common_project:hover{
   background-color: #FF8300;
 }
+
 .project_img {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -299,17 +300,17 @@ a {
     height: 65vh;
     width: 85vw;
   }
+
   .div-skill{
     width: 100vw;
   }
+
   .common_project{
     height: 65vh;
     margin-top: 2.3em;
-    font-size: 16px;
-  }
-  .project_name{
     font-size: 18px;
   }
+
   #text-myworks{
     margin-bottom: 0em;
   }
@@ -324,11 +325,15 @@ a {
 
   .project_img {
     height: 65%;
+    margin-bottom: .4em;
   }
 
   .projects-examples{
     width: 90vw;
     justify-content:center;
+  }
+  .project_name{
+    margin: 0;
   }
 }
 
@@ -370,10 +375,7 @@ a {
     font-size: 16px;
   }
   .project_name{
-    font-size: 18px;
-  }
-  .project_img {
-    height: 75%;
+    font-size: 16px;
   }
 }
 
