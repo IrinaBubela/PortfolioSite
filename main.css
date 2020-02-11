@@ -114,6 +114,7 @@ cursor: pointer;
   align-items: center; 
   height: 60vh;
   width: 100vw;
+  margin: 0;
 }
 
 
@@ -338,7 +339,7 @@ a {
 @media (max-width: 468px){
   .content{
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
   }
   .hello-div h1{
     font-size: 28px;
@@ -350,9 +351,9 @@ a {
 }
 
 @media (max-width: 375px){
-  .content{
-    height: 50vh;
-  }
+  /* .content{
+    height: 100vh;
+  } */
   .photo_about img{
     display: none;
   }
@@ -375,10 +376,7 @@ a {
   }
 }
 
-@media (max-width: 229px){
-  /* .content{height: 90vh;
-  } */
-}
+
 
 /* @media (max-height: 1200px){
   .content{
