@@ -385,7 +385,7 @@ a {
   }
 }
 
-/* @media (max-height: 1200px){
+@media (max-height: 1200px){
   .content{
     height: 40vh;
   }
@@ -393,6 +393,6 @@ a {
 
 @media (max-height: 820px){
   .content{
-    height: 100vh;
+    height: 110vh;
   }
-} */
+}
