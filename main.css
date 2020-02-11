@@ -336,6 +336,9 @@ a {
   .skills img{
     width: 60px;
   }
+  .project_img {
+    height: 65%;
+  }
 }
 
 @media (max-width: 468px){
@@ -353,7 +356,7 @@ a {
   }
 
   .project_img {
-    height: 65%;
+    height: 70%;
   }
 }
 
