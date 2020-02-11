@@ -354,7 +354,7 @@ a {
   }
   .hello-div h1{
     font-size: 28px;
-    /* margin-top: 2.5em; */
+    margin-top: 4em;
   }
   .hello-div p {
     font-size: 18px;
@@ -400,6 +400,6 @@ a {
 
 @media (max-height: 820px){
   .content{
-    height: 110vh;
+    height: 100vh;
   }
 }
