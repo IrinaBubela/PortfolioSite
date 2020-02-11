@@ -351,6 +351,10 @@ a {
   .hello-div p {
     font-size: 22px;
   }
+
+  .project_img {
+    height: 65%;
+  }
 }
 
 @media (max-width: 375px){
@@ -369,8 +373,7 @@ a {
     font-size: 18px;
   }
   .project_img {
-    width: 100%;
-    height: 65%;
+    height: 75%;
   }
 }
 
