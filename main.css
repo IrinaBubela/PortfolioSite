@@ -339,21 +339,21 @@ a {
 @media (max-width: 468px){
   .content{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
   }
   .hello-div h1{
-    font-size: 28px;
+    font-size: 35px;
     /* margin-top: 2.5em; */
   }
   .hello-div p {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
 @media (max-width: 375px){
-  /* .content{
-    height: 100vh;
-  } */
+  .content{
+    height: 140vh;
+  }
   .photo_about img{
     display: none;
   }
@@ -372,10 +372,14 @@ a {
 }
 
 @media (max-width: 300px){
-  .content{height: 100vh;
+  .content{height: 160vh;
   }
 }
 
+@media (max-width: 220px){
+  .content{height: 190vh;
+  }
+}
 
 
 /* @media (max-height: 1200px){
