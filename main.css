@@ -316,16 +316,6 @@ a {
     margin-top: 2.3em;
     font-size: 18px;
   }
-
-  #text-myworks,
-  #text-myskills
- {
-   font-size: 22px;
-   margin-bottom: 1.5em;
-   margin-top: 1.5em;
- }
- 
-  
 }
 
 @media (max-width: 756px){
@@ -355,8 +345,13 @@ a {
     font-size: 14px;
   }
   
-#text-myworks,
-
+  #text-myworks,
+  #text-myskills
+ {
+   font-size: 22px;
+   margin-bottom: 2em;
+   margin-top: 2em;
+ }
 }
 
  @media (max-width: 613px){
