@@ -81,11 +81,7 @@ html {
 
 
 /*scrolling button*/
-#scroll{
-  /* position: fixed; */
-  /* margin-top: 10em; */
-  /* display: block; */
-}
+
 
 #scroll-button{
 background-color: #425066;
@@ -125,8 +121,7 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-top: 8em;
-  margin-bottom: 3em; */
+
 }
 
 .about p{
@@ -304,21 +299,10 @@ cursor: pointer;
    margin: 0;
  }
 
- .last-el{
-   justify-content: center;
- }
  /* skills*/
 
 
-@media (max-width: 1220px){
-  /* .text_description_project{
-    bottom: 180px;
-  }
-  
-  .common_project:hover .text_description_project{
-    bottom: 50%;
-  } */
-}
+
 
 @media (max-width: 1000px){
 
@@ -327,25 +311,11 @@ cursor: pointer;
     height: 45vw;
   } 
 
-  /* .text_description_project{
-    bottom: 200px;
-    visibility: hidden;
-  }
-  
-  .common_project:hover .text_description_project{
-    bottom: 180px;
-  } */
-
   .content{
     height: 65vh;
     width: 85vw;
   }
 
-  /* .common_project{
-    height: 65vh;
-    margin-top: 2.3em;
-    font-size: 18px;
-  }  */
 }
 
 @media (max-width: 780px){
@@ -360,15 +330,7 @@ cursor: pointer;
     height: 80vw;
   } 
 
-  /* .project_img {
-    width: 80vw;
-    margin-bottom: .4em;
-  } 
-
-  .projects-examples{
-    width: 80vw;
-    justify-content:center;
-  } */
+  
   .project_name{
     margin: 0;
   }
@@ -411,11 +373,6 @@ cursor: pointer;
   .hello-div p {
     font-size: 22px;
   }
-
-  /* .project_img {
-    height: 70%;
-  } */
-
   .project_name{
     margin: 0;
   }
