@@ -9,6 +9,14 @@
   background-color: #212832 !important;
 }
 
+.link{
+  color: #fff;
+  &:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
 .page-header {
   position: relative;
   padding-top: 8rem;
@@ -20,13 +28,10 @@
   background-color: #212832;
 }
 
-.navbar-resized{
-  background-color: #212832 !important;
-}
 
 .bg-gradient-primary-to-secondary {
   background-color: #06794f;
-  background-image: linear-gradient(135deg, #06794f 0%, rgba(15, 162, 139, 0.8) 100%);
+  background-image: linear-gradient(135deg, #06794f 0%, rgba(17, 117, 94, 0.8) 100%);
 }
 
 .navbar-marketing .navbar-nav .nav-item {
@@ -34,15 +39,19 @@
   font-size: 1.1rem;
 }
 
-.navbar-not-mainpage{
-  background-color: #06794f;
-  background-image: linear-gradient(135deg, #06794f 0%, rgb(15, 123, 89) 100%);
-  margin-bottom: 3em;
-}
+// .navbar-not-mainpage{
+//   background-color: #06794f;
+//   background-image: linear-gradient(135deg, #06794f 0%, rgb(15, 123, 89) 100%);
+// }
 
 .navbar-scrolled{
-  background-image: linear-gradient(135deg, #212832 0%, rgba(35, 68, 62, 0.8) 100%) !important;
+  background-image: linear-gradient(135deg, #1a4031 0%, rgb(38, 88, 79) 100%);
 }
+
+.navbar-resized{
+  background-image: linear-gradient(135deg, #1a4031 0%, rgb(38, 88, 79) 100%);
+}
+
 
 
 .img-container{
@@ -165,10 +174,6 @@ svg {
   margin-bottom: 1.5rem !important;
 }
 
-.bg-gradient-primary-to-secondary {
-  background-color: #06794f;
-  background-image: linear-gradient(135deg, #06794f 0%, rgba(15, 162, 139, 0.8) 100%);
-}
 
 .text-white {
   color: #fff !important;
@@ -294,7 +299,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   } 
 
   .section-project{
-    margin-top: 1em;
+    padding-top: 1em !important;
   }
   
 }

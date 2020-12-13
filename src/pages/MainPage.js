@@ -1,5 +1,6 @@
 import React from 'react';
 import Projects from './Projects';
+import { Link } from 'react-router-dom';
 
 class MainPage extends React.Component {
     render() {
@@ -13,10 +14,13 @@ class MainPage extends React.Component {
                                     <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up">
                                         <h1 className="page-header-title">Front-end JS Developer</h1>
                                         <p className="page-header-text mb-5">I'm Irina, a Web Developer with commercial and team work experience. I enjoy creating user-centric, delightful and optimized projects.</p>
-                                        <a className="btn btn-teal font-weight-500 mr-2" href="/Projects">
-                                            View Projects
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right ml-2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                                        </a>
+                                        <Link className="link" to="/Projects">
+                                            <a className="btn btn-teal font-weight-500 mr-2" href="/Projects">
+                                                View Projects
+                                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right ml-2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                            </a>
+                                        </Link>
+
                                         <a className="btn btn-link" href="/">Contact</a>
                                     </div>
                                     <div className="offset-lg-1 col-lg-5 d-none d-lg-block aos-init aos-animate text-right" data-aos="fade-up" data-aos-delay="100">

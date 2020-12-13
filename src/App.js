@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -12,7 +12,7 @@ import NavbarComponent from './layouts/Navbar';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter basename='/'>
         <div>
           <NavbarComponent />
           <Switch>
@@ -22,7 +22,7 @@ function App() {
             <Route path='/contact' component={Contact} />
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     </div>
   );
 }

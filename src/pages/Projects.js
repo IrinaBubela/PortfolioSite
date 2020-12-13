@@ -32,7 +32,7 @@ function Projects() {
                     </div>
                 </div>
             </section>
-            <hr class="m-0"></hr>
+            <hr className="m-0"></hr>
             <section className="bg-light py-10 section-aboutme">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
@@ -62,7 +62,7 @@ function Projects() {
                     </div>
                 </div>
             </section>
-            <hr class="m-0"></hr>
+            <hr className="m-0"></hr>
             <section className="bg-light py-10 section-aboutme">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
