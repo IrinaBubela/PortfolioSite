@@ -146,6 +146,33 @@ svg {
   }
 } 
 
+// form
+.contact-form{
+  padding-top: 12em;
+  min-height: 100vh;
+  background-color: #F2F6FC;
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-dark, .page-header-light .btn-link {
+    color: #212832 !important;
+  }
+
+}
+
 
 /* section */
 
@@ -300,6 +327,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
   .section-project{
     padding-top: 1em !important;
+  }
+
+  .contact-form{
+    padding-top: 6em;
   }
   
 }

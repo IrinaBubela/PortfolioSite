@@ -79,7 +79,9 @@ class NavbarComponent extends React.Component {
                             <Nav.Link className="nav-item">
                                 <Link className="nav-link" to="/About">About</Link>
                             </Nav.Link>
-                            {/* <Nav.Link className="nav-item" href="/Contact">Contact</Nav.Link> */}
+                            <Nav.Link className="nav-item" href="/Contact">
+                                <Link className="nav-link" to="/Contact">Contact</Link>
+                            </Nav.Link>
                         </Nav>
                         <a className="btn font-weight-500 ml-lg-4 btn-teal" href="assets/img/CV-BUBELA.pdf" download>
                             Resume
