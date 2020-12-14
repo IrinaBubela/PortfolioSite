@@ -13,7 +13,7 @@ class MainPage extends React.Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up">
                                         <h1 className="page-header-title">Front-end JS Developer</h1>
-                                        <p className="page-header-text mb-5">I'm Irina, a Web Developer with commercial and team work experience. I enjoy creating user-centric, delightful and optimized projects.</p>
+                                        <p className="page-header-text mb-5">Web Developer with commercial and team work experience. I enjoy creating user-centric, delightful and optimized projects.</p>
                                         <Link className="link" to="/Projects">
                                             <a className="btn btn-teal font-weight-500 mr-2" href="/Projects">
                                                 View Projects
@@ -24,7 +24,7 @@ class MainPage extends React.Component {
                                         <a className="btn btn-link" href="/">Contact</a>
                                     </div>
                                     <div className="offset-lg-1 col-lg-5 d-none d-lg-block aos-init aos-animate text-right" data-aos="fade-up" data-aos-delay="100">
-                                        <img className="img-fluid illustration" src="assets/img/illustration-2.svg" alt="dev" />
+                                        <img className="img-fluid illustration" src="assets/img/illustration.svg" alt="dev" />
                                     </div>
                                 </div>
                             </div>
