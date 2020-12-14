@@ -24,7 +24,7 @@ class MainPage extends React.Component {
                                         <a className="btn btn-link" href="/">Contact</a>
                                     </div>
                                     <div className="offset-lg-1 col-lg-5 d-none d-lg-block aos-init aos-animate text-right" data-aos="fade-up" data-aos-delay="100">
-                                        <img className="img-fluid" src="assets/img/dev.svg" alt="dev" />
+                                        <img className="img-fluid illustration" src="assets/img/illustration-2.svg" alt="dev" />
                                     </div>
                                 </div>
                             </div>
@@ -60,9 +60,6 @@ class MainPage extends React.Component {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
                         </div>
                     </section>
-
-
-
                     <Projects />
 
                 </main>

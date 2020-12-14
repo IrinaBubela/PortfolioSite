@@ -1,46 +1,39 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React, { Component } from 'react';
+import axios from 'axios';
 
 class ContactForm extends Component {
-    constructor() {
-        super();
-        this.state = {
-            name: '',
-            message: '',
-            email: '',
-            sent: false,
-            buttonText: 'Send Message'
-        };
+
+    state = {
+        name: '',
+        message: '',
+        email: '',
+        sent: false,
+        buttonText: 'Send Message'
     }
+
+
 
 
 
 
     render() {
         return (
-            <div className="contact-form">
-                <form className="container">
-                    <div className="form-row">
-                        <div className="form-group col-md-6">
-                            <label className="text-dark" for="inputName">Full name</label>
-                            <input className="form-control py-4" id="inputName" type="text" placeholder="Full name" />
-                        </div>
 
-                        <div className="form-group col-md-6">
-                            <label className="text-dark" for="inputEmail">Email</label>
-                            <input className="form-control py-4" id="inputEmail" type="email" placeholder="name@example.com" />
-                        </div>
-                    </div>
 
-                    <div className="form-group">
-                        <label className="text-dark" for="inputMessage">Message</label>
-                        <textarea className="form-control py-3" id="inputMessage" type="text" placeholder="Enter your message..." rows="4"></textarea>
-                    </div>
-                    <div className="text-center">
-                        <button className="btn btn-teal mt-4" type="submit">Submit Request</button>
-                    </div>
-                </form >
-            </div >
+            <form className="contact-form" onSubmit={(e) => this.formSubmit(e)}>
+                <label class="message" htmlFor="message-input">Your Message</label>
+                <textarea onChange={e => this.setState({ message: e.target.value })} name="message" class="message-input" type="text" placeholder="Please write your message here" value={this.state.message} required />
+
+                <label class="message-name" htmlFor="message-name">Your Name</label>
+                <input onChange={e => this.setState({ name: e.target.value })} name="name" class="message-name" type="text" placeholder="Your Name" value={this.state.name} />
+
+                <label class="message-email" htmlFor="message-email">Your Email</label>
+                <input onChange={(e) => this.setState({ email: e.target.value })} name="email" class="message-email" type="email" placeholder="your@email.com" required value={this.state.email} />
+
+                <div className="button--container">
+                    <button type="submit" className="button button-primary">{this.state.buttonText}</button>
+                </div>
+            </form>
         );
     }
 
