@@ -282,6 +282,93 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
 }
 
+// contact
+
+.contact-page{
+
+  .page-header{
+    padding-top: 10em;
+  }
+  .border-primary {
+    border-color: #0061f2;
+}
+
+.bg-primary-soft {
+  background-color: #dae7fb !important;
+}
+
+
+.border-secondary {
+  border-color: #6900c7 !important;
+  p{
+    color: #6900c7;
+  &:hover{
+    color: #8a2ddc;
+    text-decoration: underline;
+  }
+}
+}
+
+.bg-secondary-soft {
+  background-color: #e4ddf7 !important;
+}
+
+.text-secondary {
+  color: #6900c7 !important;
+}
+
+.border-teal {
+  border-color: #00ba94 !important;
+  p{
+    color: #00ba94;
+  &:hover{
+    color: #20d3af;
+    text-decoration: underline;
+  }
+}
+}
+
+.bg-teal-soft {
+  background-color: #daf0f2 !important;
+}
+
+.text-teal {
+  color: #00ba94 !important;
+}
+
+.border-top-lg {
+  border-top-width: 0.25rem !important;
+}
+
+.lift {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.35rem;
+}
+
+.text-center {
+  text-align: center!important;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.35rem;
+}
+
+  
+}
+
 
 
 @media (min-width: 992px){
@@ -330,7 +417,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .contact-form{
     padding-top: 6em;
   }
+
+  .contact-page{
+    .page-header{
+      padding-top: 8em;
+    }
+  }
   
+}
+
+.footer.footer-light {
+  color: #a7aeb8;
 }
 
 

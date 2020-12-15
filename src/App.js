@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import NavbarComponent from './layouts/Navbar';
+import Footer from './layouts/Footer';
 
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='/projects' component={Projects} />
             <Route path='/contact' component={Contact} />
           </Switch>
+          <Footer />
         </div>
       </HashRouter>
     </div>

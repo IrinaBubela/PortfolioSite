@@ -20,11 +20,13 @@ class MainPage extends React.Component {
                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right ml-2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                                             </a>
                                         </Link>
+                                        <Link className="link" to="/Contact">
+                                            <a className="btn btn-link" href="/Contact">Contact</a>
+                                        </Link>
 
-                                        <a className="btn btn-link" href="/">Contact</a>
                                     </div>
-                                    <div className="offset-lg-1 col-lg-5 d-none d-lg-block aos-init aos-animate text-right" data-aos="fade-up" data-aos-delay="100">
-                                        <img className="img-fluid illustration" src="assets/img/illustration.svg" alt="dev" />
+                                    <div className="col-lg-6 d-none d-lg-block aos-init aos-animate text-right" data-aos="fade-up" data-aos-delay="100">
+                                        <img className="img-fluid illustration" src="assets/img/illustration-2.svg" alt="dev" />
                                     </div>
                                 </div>
                             </div>

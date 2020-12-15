@@ -65,7 +65,7 @@ class NavbarComponent extends React.Component {
             <Navbar bg="light" expand="lg" ref={this.navbar} className={"navbar navbar-marketing navbar-expand-lg bg-transparent navbar-dark fixed-top bg-gradient-primary-to-secondary" + this.state.classNameColorNav + this.state.classNameScroll + this.state.classNameResized}>
                 <div className="container">
                     <Navbar.Brand href="/" className="navbar-brand text-white">
-                        <Link className="link" to="/">Ira Bubela Dev</Link>
+                        <Link className="link" to="/">IB Dev</Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggler" type="button" />
                     <Navbar.Collapse id="basic-navbar-nav" className="collapse navbar-collapse">
@@ -79,9 +79,9 @@ class NavbarComponent extends React.Component {
                             <Nav.Link className="nav-item">
                                 <Link className="nav-link" to="/About">About</Link>
                             </Nav.Link>
-                            {/* <Nav.Link className="nav-item" href="/Contact">
+                            <Nav.Link className="nav-item" href="/Contact">
                                 <Link className="nav-link" to="/Contact">Contact</Link>
-                            </Nav.Link> */}
+                            </Nav.Link>
                         </Nav>
                         <a className="btn font-weight-500 ml-lg-4 btn-teal" href="assets/img/CV-BUBELA.pdf" download>
                             Resume
