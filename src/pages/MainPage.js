@@ -42,19 +42,19 @@ class MainPage extends React.Component {
                                 <div className="col-lg-4 mb-5 mb-lg-0">
                                     <div className="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div>
                                     <h3>Front-end development</h3>
-                                    <p className="mb-0">JavaScript(ES6), jQuery, HTML, CSS(CSS Preprocessors), Bootstrap, RWD, UX/UI Design </p>
+                                    <p className="mb-0">JavaScript(ES6), HTML, CSS(SASS, SCSS, Bootstrap, Vuetify), UX/UI Design </p>
                                 </div>
                                 <div className="col-lg-4 mb-5 mb-lg-0">
                                     <div className="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-smartphone"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg></div>
                                     <h3>JavaScript, Typescript and frameworks</h3>
-                                    <p className="mb-0">React, Redux.
+                                    <p className="mb-0">Vue.js, React,
                                     Angular, AngularJS.  <br />
                                     Typescript.</p>
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-code"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div>
                                     <h3>Backend and build tools</h3>
-                                    <p className="mb-0">RESTful Services and APIs. <br /> Basics of Node.js and PHP.<br /> GIT and SVN. Problem Solving Skills</p>
+                                    <p className="mb-0">RESTful Services and APIs. <br /> Basics of Node.js, Java and SQL.<br /> GIT and JIRA. Problem Solving Skills</p>
                                 </div>
                             </div>
                         </div>

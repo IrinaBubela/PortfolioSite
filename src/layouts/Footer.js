@@ -4,7 +4,7 @@ export default function Footer() {
 
 
     return (
-        < footer class="footer pt-10 pb-5 mt-auto bg-light footer-light" >
+        < footer class="footer pt-10 pb-5 mt-auto footer-light" >
             <div class="container">
                 <hr class="my-5" />
                 <div class="row text-center align-items-center">

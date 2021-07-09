@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 class ContactForm extends Component {
 
@@ -26,7 +25,7 @@ class ContactForm extends Component {
                             </svg>
                         </div>
                     </header>
-                    <section className="bg-light pt-10">
+                    <section className="bgd-gray pt-10">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-4 mb-5">

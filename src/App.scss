@@ -136,11 +136,25 @@ svg {
   border-radius: 100%;
 }
 
+
+.bgd-gray{
+  background-color: #F2F6FC;
+}
+
 .aboutme-page{
+  min-width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #F2F6FC;
   margin-top: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .row{
+    width: 70vw;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 } 
 
@@ -424,6 +438,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
   }
   
+}
+
+.footer {
+  background-color: #F2F6FC;
 }
 
 .footer.footer-light {
