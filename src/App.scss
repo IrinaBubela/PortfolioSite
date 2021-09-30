@@ -39,11 +39,6 @@
   font-size: 1.1rem;
 }
 
-// .navbar-not-mainpage{
-//   background-color: #06794f;
-//   background-image: linear-gradient(135deg, #06794f 0%, rgb(15, 123, 89) 100%);
-// }
-
 .navbar-scrolled{
   background-image: linear-gradient(135deg, #1a4031 0%, rgb(38, 88, 79) 100%);
 }
@@ -265,8 +260,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  
 
   small, .small {
-      font-size: 0.875em;
-      font-weight: 400;
+    font-size: 0.875em;
+    font-weight: 400;
   }
   h3, .h3 {
     font-size: 1.3rem;
@@ -379,16 +374,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border: 0 solid rgba(0, 0, 0, 0.125);
   border-radius: 0.35rem;
 }
-
-  
 }
-
 
 
 @media (min-width: 992px){
   .navbar-marketing .navbar-nav {
-      padding-top: 1.75rem;
-      padding-bottom: 1.75rem;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;

@@ -36,6 +36,36 @@ function Projects() {
             <section className="bg-light py-10 section-aboutme">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
+                        <div className="col-md-9 col-lg-6 order-1 order-lg-0 aos-init aos-animate" data-aos="fade-right">
+                            <div className="content-skewed content-skewed-right">
+                                <img className="content-skewed-item img-fluid shadow-lg rounded-lg" src="assets/img/ph-portf.svg" alt="Photo Portfolio Project" />
+                            </div>
+                        </div>
+                        <div className="col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade-left">
+                            <div className="mb-5">
+                                <h2>Photographer Portfolio</h2>
+                                <p className="lead">Project for a photographer from Belarus.  Made with React JS, CSS, GIT, NPM.  </p>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-6 mb-4">
+                                    <h6>Check the Project</h6>
+                                    <p className="mb-2 small">Use that link to explore Demo on Github Pages</p>
+                                    <a className="small text-arrow-icon" href="https://irinabubela.github.io/photography_website_portfolio/">Explore Demo<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                                </div>
+                                <div className="col-md-6 mb-4">
+                                    <h6>Check the code</h6>
+                                    <p className="mb-2 small mb-0">Use that link to check project's code on Github</p>
+                                    <a className="small text-arrow-icon" href="https://github.com/IrinaBubela/photography_website_portfolio/">Code on Github<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr className="m-0"></hr>
+            <section className="bg-light py-10 section-aboutme">
+                <div className="container">
+                    <div className="row align-items-center justify-content-center">
                         <div className="col-md-9 col-lg-6 order-1 order-lg-0 aos-init aos-animate" data-aos="fade-left">
                             <div className="content-skewed content-skewed-right">
                                 <img className="content-skewed-item img-fluid shadow-lg rounded-lg" src="assets/img/unsplash-project.svg" alt="Unsplash Project" />
@@ -56,6 +86,31 @@ function Projects() {
                                     <h6>Check the code</h6>
                                     <p className="mb-2 small mb-0">Use that link to check project's code on Github</p>
                                     <a className="small text-arrow-icon" href="https://github.com/IrinaBubela/APIUnsplash-React/tree/master/">Code on Github<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr className="m-0"></hr>
+            <section className="bg-light py-10 section-aboutme">
+                <div className="container">
+                    <div className="row align-items-center justify-content-center">
+                        <div className="col-md-9 col-lg-6 order-1 order-lg-0 aos-init aos-animate" data-aos="fade-right">
+                            <div className="content-skewed content-skewed-right">
+                                <img className="content-skewed-item img-fluid shadow-lg rounded-lg" src="assets/img/project-3.svg" alt="Covid Project" />
+                            </div>
+                        </div>
+                        <div className="col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade-left">
+                            <div className="mb-5">
+                                <h2>E-commerce sample web page</h2>
+                                <p className="lead">One of my oldest projects, developed only with JS without using any frameworks. </p>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-6 mb-4">
+                                    <h6>Check the code</h6>
+                                    <p className="mb-2 small mb-0">Use that link to check project's code on Github</p>
+                                    <a className="small text-arrow-icon" href="https://github.com/IrinaBubela/t-shirt">Code on Github<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
                                 </div>
                             </div>
                         </div>
